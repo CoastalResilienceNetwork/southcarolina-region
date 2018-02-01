@@ -1,8 +1,8 @@
 {
     "googleAnalyticsPropertyId": "7401895-38",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/northcarolina" },
-    "titleDetail": { "text": "North Carolina", "url": "http://coastalresilience.org/north-carolina" },
+    "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/southcarolina" },
+    "titleDetail": { "text": "South Carolina", "url": "http://coastalresilience.org/project/southcarolina/" },
 	"headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
@@ -21,10 +21,10 @@
             { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        -77.706251235,
-        34.617736572,
-        -74.328135392,
-        36.405587596
+        -84.055149999,
+        32.042478096,
+        -78.006200931,
+        35.416777485
     ],
     "basemaps": [
 		{ "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
@@ -38,10 +38,7 @@
     ],
     "pluginOrder": [
 		"launchpad",
-        "flood-slr",
-        "community-rating-system",
-	    "restoration_explorer",
-        "living-shorelines-explorer",
+        "community_planning",
 	    "zoom_to",
         "measure",
         "legend_display",
@@ -61,55 +58,20 @@
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
-            "title": "North Carolina",
+            "title": "South Carolina",
             "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.  For additional project information, visit the <a href= 'http://coastalresilience.org/project/north-carolina/' target='_blank'><b>North Carolina</b></a> home page.</p>",
 			 "plugins": [	
                 {
                     "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
                     "description": "Identifies potential inundation during coastal storms from wind, storm surge, and future flood risk based on sea-level rise predictions.",
                     "pluginName": "flood-slr"
-                },
-                {
-                    "title": "<img src='img/CRSicon_active.png' hspace=10>CRS Explorer",
-                    "description": "Identifies open space to reduce flood risk and insurance premiums using Community Rating System (CRS) Open Space Preservation (OSP) credits.",
-                    "pluginName": "community-rating-system"
-                },
-				{
-					"title": "<img src='img/living_shoreline.png' hspace=10>Living Shoreline Explorer",
-					"description": "Provides guidance on using salt marsh for shoreline erosion control based on site-specific wave energy.",
-					"pluginName": "living-shorelines-explorer"
-				}
+                }
             ],
              "partners": [
                 {
                     "logoPath": "img/TNCLogoPrimary_RGB.png",
                     "link": "http://nature.org",
                     "title": "The Nature Conservancy"
-                },
-                {
-                    "logoPath": "img/CMAST.png",
-                    "link": "https://cmast.ncsu.edu/",
-                    "title": "North Carolina State Center for Marine Sciences and Tech"
-                },
-                {
-                    "logoPath": "img/NC_NERR.png",
-                    "link": "http://www.nccoastalreserve.net/",
-                    "title": "NC Coastal Reserve"
-                },
-                {
-                    "logoPath": "img/CSI.png",
-                    "link": " http://www.coastalstudiesinstitute.org/",
-                    "title": "UNC Coastal Studies Institute"
-                },
-                {
-                    "logoPath": "img/NCCOS.png",
-                    "link": " https://coastalscience.noaa.gov/",
-                    "title": "National Centers for Coastal Ocean Science"
-                },
-                {
-                    "logoPath": "img/Currituck.png",
-                    "link": "http://www.co.currituck.nc.us/",
-                    "title": "Currituck County"
                 }
             ]
       }

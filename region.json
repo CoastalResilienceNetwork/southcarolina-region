@@ -39,7 +39,6 @@
     "pluginOrder": [
 		"launchpad",
         "regional-planning",
-        "community_planning",
 	    "zoom_to",
         "measure",
         "legend_display",
@@ -63,9 +62,9 @@
             "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.  For additional project information, visit the <a href= 'http://coastalresilience.org/project/southcarolina/' target='_blank'><b>South Carolina</b></a> home page.</p>",
 			 "plugins": [	
                 {
-                    "title": "<img src='img/flood_slr.png' hspace=10>Flood and Sea Level Rise",
-                    "description": "Identifies potential inundation during coastal storms from wind, storm surge, and future flood risk based on sea-level rise predictions.",
-                    "pluginName": "flood-slr"
+                    "title": "<img src='img/flood_slr.png' hspace=10>Community Planning",
+                    "description": "Community-scale data for conservation and adaptation planning",
+                    "pluginName": "regional-planning"
                 }
             ],
              "partners": [

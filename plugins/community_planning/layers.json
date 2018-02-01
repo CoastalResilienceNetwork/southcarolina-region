@@ -1,106 +1,40 @@
 [
     {
-        "displayName": "Currituck County",
+        "displayName": "Horry County",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina"
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/South_Carolina",
+            "name": "Horry_County"
         },
         "includeLayers": [
             {
-                "name": "CCInfrastructure",
-                "displayName": "Infrastructure",
+                "name": "Past and Future Flood Risk Models",
+                "displayName": "Past and Future Flood Risk Models",
                 "includeAllLayers": true
             },
             {
-                "name": "CCHabitat",
-                "displayName": "Habitat",
+                "name": "FEMA Flood Zones",
+                "displayName": "HFEMA Flood Zones",
                 "includeAllLayers": true
             },
              {
-                "name": "CCFlood Map",
-                "displayName": "Flood Map",
-                "includeAllLayers": true
+                "name": "National Wetlands Inventory",
+                "displayName": "National Wetlands Inventory"
             },
             {
-                "name": "CCLand Use",
-                "displayName": "Recreation",
+                "name": "City of Conway Land Cover",
+                "displayName": "City of Conway Land Cover"
+            },
+            {
+                "name": "Social Vulnerability Index",
+                "displayName": "Social Vulnerability Index"
+            },
+            {
+                "name": "Infrastructure",
+                "displayName": "Infrastructure", 
                 "includeAllLayers": true
-            }  
+            }    
         ]
-    },
-    {
-        "displayName": "Dare County",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina"
-        },
-        "includeLayers": [
-            {
-                "name": "DCInfrastructure",
-                "displayName": "Infrastructure",
-                "includeAllLayers": true
-            },
-            {
-                "name": "DCHabitat",
-                "displayName": "Habitat",
-                "includeAllLayers": true
-            },
-            {
-                "name": "DCFlood Map",
-                "displayName": "Flood Map",
-                "includeAllLayers": true
-            },
-            {
-                "name": "DCLand Use",
-                "displayName": "Land Use",
-                "includeAllLayers": true
-            }
-        ]
-    },
-    {
-        "displayName": "Hyde County",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina"
-        },
-        "includeLayers": [
-            {
-                "name": "HCLand Use",
-                "displayName": "Land Use",
-                "includeAllLayers": true
-            },
-            {
-                "name": "HCFlood Map",
-                "displayName": "Flood Map",
-                "includeAllLayers": true
-            }
-        ]
-    },
-    {
-        "displayName": "Roanoke Island",
-        "server": {
-            "type": "ags",
-            "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/North_Carolina",
-            "name": "North_Carolina" 
-        },
-        "includeLayers": [
-            {
-                "name": "RICoastal Management",
-                "displayName": "Coastal Management",
-                "includeAllLayers": true
-            },
-            {
-                "name": "RIInfrastructure",
-                "displayName": "Infrastructure",
-                "includeAllLayers": true
-            }
-        ]
-    }  
+    }
 ]

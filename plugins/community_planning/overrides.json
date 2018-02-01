@@ -1,8 +1,7 @@
 {
-    "height": 400,
+    "height": 600,
     "width": 400,
     "resizable": false,
-    "hasCustomPrint": true,
-    "name": "Community Planning",
-    "infoGraphic": "<div><img src='plugins/community_planning/CommunityPlanning_c.jpg'/></div>"
+    "hasCustomPrint": true
 }
+

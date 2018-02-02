@@ -1,9 +1,9 @@
 {
-    "frameworkVersion": "b822126",
     "plugins": [
         {
             "repo": "regional-planning",
-            "name": "regional-planning"
+            "name": "regional-planning",
+            "ver": "37b1238"
         }
     ]
 }

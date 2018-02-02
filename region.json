@@ -39,6 +39,7 @@
     "pluginOrder": [
 		"launchpad",
         "regional-planning",
+        "community_planning",
 	    "zoom_to",
         "measure",
         "legend_display",

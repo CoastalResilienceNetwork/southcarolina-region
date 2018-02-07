@@ -15,7 +15,7 @@
             },
             {
                 "name": "FEMA Flood Zones",
-                "displayName": "HFEMA Flood Zones",
+                "displayName": "FEMA Flood Zones",
                 "includeAllLayers": true
             },
              {

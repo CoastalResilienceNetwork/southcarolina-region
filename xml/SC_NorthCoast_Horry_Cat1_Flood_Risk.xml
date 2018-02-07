@@ -7,7 +7,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>Category 1 Hurricane risks developed from SLOSH ensemble runs (64) for the Wilmington - Myrtle Beach basin. The SLOSH data, both averages and standard deviation values, were used with a 18 m DEM to create Z-scores for each pixel. The Z-scores were then converted to percent values. The percent values indicate the % chance of a pixel to be flooded from storm surge (waves not modeled) during a land-falling category 1 hurricane.</abstract>
+      <abstract>Category 1 Hurricane risks developed from SLOSH ensemble runs (64) for the Wilmington - Myrtle Beach basin. The SLOSH data, both averages and standard deviation values, were used with a 18 m DEM to create Z-scores for each pixel. The Z-scores were then converted to percent values. The percent values indicate the percent chance of a pixel to be flooded from storm surge (waves not modeled) during a land-falling category 1 hurricane.</abstract>
       <purpose>Category 1 hurricane projected risks were developed to highlight expected storm conditions. These risks are not defined as yearly values, but what may be considered in terms of a probable risk occurrence over decadal time frames.  </purpose>
     </descript>
     <spdom>

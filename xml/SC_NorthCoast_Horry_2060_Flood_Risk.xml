@@ -22,7 +22,7 @@
 		<accconst>None</accconst>
 		<useconst>Not intended for insurance or FEMA rate maps.</useconst>
 		<datacred>Stream Gage data - USGS; Digital Elevation Model - Horry County; Rainfall Projections – EPA; Sea Level Projections – USACE, NOAA;  Analysis - Keil Schmid, Geoscience Consultants.</datacred>
-		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.0.6491</native>
+		<native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
 	</idinfo>
 	<spdoinfo>
 		<direct>Raster</direct>

@@ -1,13 +1,13 @@
-<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+ï»¿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
   <idinfo>
     <citation>
       <citeinfo>
-        <title>Parcel Flood Information – Horry County</title>
+        <title>Parcel Flood Information â€“ Horry County</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
     <descript>
-      <abstract>The parcel level flood information fields for the predicted and projected flood surfaces, including Category 1 risk, were calculated by finding the mean value (%) and populating the database with those values. The hindcasted and FEMA proposed flood zone fields represent the calculated ratio (0 to 1) of each parcel that falls within the areas hindcasted or defined (FEMA). The average elevation and minimum elevation of the parcel is also included (from Lidar).Fields/Attributes – APN, Parcel identification numberCAT1%, Average percent risk predicted within parcel of category 1 inundationELEVATION, Average elevation of parcelFEMA_%, Percent of parcel falling within FEMA A zoneGS%, Average percent risk predicted within parcel of yearly inundationGS_2035%, Average percent risk projected within parcel of yearly inundation in 2035GS_2060%, Average percent risk projected within parcel of category 1 inundationJOA_%, Percent of parcel falling within hindcasted Hurricane Joaquin inundationMEAN_ELEV, Average elevation of parcelMIN_ELEV, Minimum elevation of parcelMTHW_%, Percent of parcel falling within hindcasted Hurricane Matthew inundation</abstract>
+      <abstract>The parcel level flood information fields for the predicted and projected flood surfaces, including Category 1 risk, were calculated by finding the mean value (%) and populating the database with those values. The hindcasted and FEMA proposed flood zone fields represent the calculated ratio (0 to 1) of each parcel that falls within the areas hindcasted or defined (FEMA). The average elevation and minimum elevation of the parcel is also included (from Lidar).Fields/Attributes â€“ APN, Parcel identification numberCAT1%, Average percent risk predicted within parcel of category 1 inundationELEVATION, Average elevation of parcelFEMA_%, Percent of parcel falling within FEMA A zoneGS%, Average percent risk predicted within parcel of yearly inundationGS_2035%, Average percent risk projected within parcel of yearly inundation in 2035GS_2060%, Average percent risk projected within parcel of category 1 inundationJOA_%, Percent of parcel falling within hindcasted Hurricane Joaquin inundationMEAN_ELEV, Average elevation of parcelMIN_ELEV, Minimum elevation of parcelMTHW_%, Percent of parcel falling within hindcasted Hurricane Matthew inundation</abstract>
       <purpose>Pertinent flooding projections, hindcasts, and predictions from surfaces developed in the study were conflated to a parcel vector file. This layer was developed to facilitate queries to develop actionable plans.  </purpose>
     </descript>
     <spdom>

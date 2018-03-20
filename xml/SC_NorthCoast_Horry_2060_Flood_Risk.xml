@@ -1,65 +1,64 @@
-ï»¿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
-<metadata>
-	<idinfo>
-		<citation>
-			<citeinfo>
-				<title>2060 Projected Yearly Flooding Risks</title>
-				<geoform>raster digital data</geoform>
-			</citeinfo>
-		</citation>
-		<descript>
-			<abstract>The projected yearly flood risk for 2060 was created using the 2017 predicted flooding risk surfaces as a base. The values were offset (increased) based on the EPAâ€™s Stormy future scenario for the area (CREAT; Climate Scenarios Projection Map https://epa.maps.arcgis.com/apps/MapSeries/index.html?appid=3805293158d54846a29f750d63c6890e) which indicates a 27% (2060) increase in the 100 yr storm intensity for 2060. The increases at the 99% level (offset from present) were calculated for each river gage station and a 2060 surface calculated based on each stations increase in gage elevations. In areas near the coast (~10 miles) the 2017 predicted flooding risk surface also included SLR considerations. SLR values were taken from the USACE Climate Change Adaption site (http://www.corpsclimate.us/ccaceslcurves.cfm) using the values from Springmaid Pier (8661070). The values from 5 curves were used (NOAA and USACE) and the average SLR for each time computed along with the standard deviation of the estimates to generate statistics. These surfaces -stream flooding and still water surge were combined using the maximum value. The mean surface was then subtracted from a 5 m DEM (derived from 2 m DEM) and then divided by the standard deviation to arrive at Z-scores which were converted to percent (%) values.</abstract>
-			<purpose>Projected yearly flood risks for 2060 were developed from projections starting with empirical data (measured) in Horry County at stream gages and the Springmaid Pier tide gage. These data were projected to 2060 using EPA (rainfall), NOAA, and USACE (sea level) climate trends. The data provide a yearly chance (risk) of the location being flooded from river/ocean sources. Ponding water/poor drainage sources are not included.  </purpose>
-		</descript>
-		<spdom>
-			<bounding>
-				<westbc>-79.328072</westbc>
-				<eastbc>-78.531851</eastbc>
-				<northbc>33.960278</northbc>
-				<southbc>33.556982</southbc>
-			</bounding>
-		</spdom>
-		<accconst>None</accconst>
-		<useconst>Not intended for insurance or FEMA rate maps.</useconst>
-		<datacred>Stream Gage data - USGS; Digital Elevation Model - Horry County; Rainfall Projections â€“ EPA; Sea Level Projections â€“ USACE, NOAA;  Analysis - Keil Schmid, Geoscience Consultants.</datacred>
-		<native> Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.0.6491</native>
-	</idinfo>
-	<spdoinfo>
-		<direct>Raster</direct>
-		<rastinfo>
-			<rasttype>Grid Cell</rasttype>
-		</rastinfo>
-	</spdoinfo>
-	<spref>
-		<horizsys>
-			<planar>
-				<mapproj>
-					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
-					<mapprojp>
-						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
-					</mapprojp>
-				</mapproj>
-				<planci>
-					<plance>coordinate pair</plance>
-					<coordrep>
-						<absres>0.000000006714873101998366</absres>
-						<ordres>0.000000006714873101998366</ordres>
-					</coordrep>
-					<plandu>meter</plandu>
-				</planci>
-			</planar>
-			<geodetic>
-				<horizdn>D WGS 1984</horizdn>
-				<ellips>WGS 1984</ellips>
-				<semiaxis>6378137.0</semiaxis>
-				<denflat>298.257223563</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
-	<metainfo>
-		<metd>20180112</metd>
-		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
-		<metstdv>FGDC-STD-001-1998</metstdv>
-		<mettc>local time</mettc>
-	</metainfo>
-	<Esri><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\scchs.tnc.org\GIS\_Projects\WholeSystems\Oceans_and_Coasts\North_Coast_Resilience\data\databases\SC_NorthCoast_2060_Flood_Risk</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="Z:\_Projects\WholeSystems\Oceans_and_Coasts\North_Coast_Resilience\data\shapefiles\SC_NorthCoast_2060_Flood_Risk" dest="\\scchs.tnc.org\GIS\_Projects\WholeSystems\Oceans_and_Coasts\North_Coast_Resilience\data\databases\SC_NorthCoast_2060_Flood_Risk" date="20180112" time="13570800"></copy></copyHistory></DataProperties></Esri></metadata>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>2060 Projected Yearly Flooding Risks</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>For more information, see MetadataThe projected yearly flood risk for 2060 was created using the 2017 predicted flooding risk surfaces as a base. The values were offset (increased) based on the EPA’s “Stormy” future scenario for the area (CREAT; Climate Scenarios Projection Map) which indicates a 27% (2060) increase in the 100 yr storm intensity for 2060. The increases at the 99% level (offset from present) were calculated for each river gage station and a 2060 surface calculated based on each stations increase in gage elevations. In areas near the coast (~10 miles) the 2017 predicted flooding risk surface also included SLR considerations. SLR values were taken from the USACE Climate Change Adaption site (http://www.corpsclimate.us/ccaceslcurves.cfm#) using the values from Springmaid Pier (8661070). The values from 5 curves were used (NOAA and USACE) and the average SLR for each time computed along with the standard deviation of the estimates to generate statistics. These surfaces -stream flooding and still water surge were combined using the maximum value. The mean surface was then subtracted from a 5 m DEM (derived from 2 m DEM) and then divided by the standard deviation to arrive at Z-scores which were converted to percent (%) values.</abstract>
+      <purpose>Projected yearly flood risks for 2060 were developed from projections starting with empirical data (measured) in Horry County at stream gages and the Springmaid Pier tide gage. These data were projected to 2060 using EPA (rainfall), NOAA, and USACE (sea level) climate trends. The data provide a yearly chance (risk) of the location being flooded from river/ocean sources. Ponding water/poor drainage sources are not included, but available as a separate layer.  </purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-79.346481</westbc>
+        <eastbc>-78.529329</eastbc>
+        <northbc>34.303641</northbc>
+        <southbc>33.560780</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>Not intended for insurance or FEMA rate maps.</useconst>
+    <datacred>Stream Gage data - USGS; Digital Elevation Model - Horry County; Rainfall Projections – EPA; Sea Level Projections – USACE, NOAA;  Analysis - Keil Schmid, Geoscience Consultants.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.0.6491</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <metainfo>
+    <metd>20180309</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

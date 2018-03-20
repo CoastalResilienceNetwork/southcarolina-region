@@ -72,6 +72,11 @@
                     "logoPath": "img/TNCLogoPrimary_RGB.png",
                     "link": "http://nature.org",
                     "title": "The Nature Conservancy"
+                },
+                {
+                    "logoPath": "img/HorryCo.jpg",
+                    "link": "https://www.horrycounty.org/",
+                    "title": "Horry County"
                 }
             ]
       }

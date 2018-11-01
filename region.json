@@ -82,6 +82,16 @@
                     "logoPath": "img/USFWS.jpg",
                     "link": "https://www.fws.gov/",
                     "title": "USFWS"
+                },
+                {
+                    "logoPath": "img/boeing.png",
+                    "link": "https://www.boeing.com/",
+                    "title": "Boeing"
+                },
+                {
+                    "logoPath": "img/dhec.jpg",
+                    "link": "http://www.scdhec.gov/",
+                    "title": "SC Dept of Health and Environmental Control"
                 }
             ]
       }

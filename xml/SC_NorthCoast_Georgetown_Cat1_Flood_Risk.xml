@@ -1,0 +1,64 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Category 1 Hurricane Predicted Flooding Risk </title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Category 1 Hurricane risks developed from SLOSH ensemble runs (64) for the Wilmington - Myrtle Beach basin. The SLOSH data, both averages and standard deviation values, were calculated for each SLOSH cell and used with an 18 m DEM to create Z-scores for each pixel. The Z-scores were then converted to percent values. The percent values indicate the % chance of a pixel to be flooded from storm surge (waves not modeled) during a land-falling category 1 hurricane. This analysis does not include any DEM error analysis since the SLOSH data themselves have a high degree of uncertainty.</abstract>
+      <purpose>Category 1 hurricane projected risks were developed to highlight hurricane storm conditions that are consistent with a typical land-falling hurricane in the area. These risks are not defined as yearly values, but what may be considered in terms of a probable risk occurrence over decadal (10 year) time frames.  </purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-79.684090</westbc>
+        <eastbc>-78.997777</eastbc>
+        <northbc>33.783921</northbc>
+        <southbc>33.111512</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>Not intended for insurance or FEMA rate maps.</useconst>
+    <datacred>Sea Lake Overland Surge Heights (SLOSH) data - NOAA; Digital Elevation Model - Horry County; Analysis - Keil Schmid, Geoscience Consultants.</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <metainfo>
+    <metd>20181126</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

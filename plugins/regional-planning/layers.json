@@ -5,7 +5,7 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/South_Carolina",
-            "name": "Horry_County"
+            "name": "South_Carolina"
         },
         "includeLayers": [
             {
@@ -14,24 +14,67 @@
                 "includeAllLayers": true
             },
             {
+                "name": "City of Conway Land Cover",
+                "displayName": "City of Conway Land Cover"
+            },
+            {
                 "name": "FEMA Flood Zones",
                 "displayName": "FEMA Flood Zones",
                 "includeAllLayers": true
             },
-             {
+            {
                 "name": "National Wetlands Inventory",
                 "displayName": "National Wetlands Inventory"
-            },
-            {
-                "name": "City of Conway Land Cover",
-                "displayName": "City of Conway Land Cover"
-            },
+            }, 
             {
                 "name": "Social Vulnerability Index",
                 "displayName": "Social Vulnerability Index"
             },
             {
                 "name": "Infrastructure",
+                "displayName": "Infrastructure", 
+                "includeAllLayers": true
+            }    
+        ]
+    },
+    {
+        "displayName": "Georgetown County",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/South_Carolina",
+            "name": "South_Carolina"
+        },
+        "includeLayers": [
+            {
+                "name": "Past and Future Flood Risk Models_GT",
+                "displayName": "Past and Future Flood Risk Models",
+                "includeAllLayers": true
+            },
+            {
+                "name": "City of Andrews Land Cover",
+                "displayName": "City of Andrews Land Cover"
+            },
+            {
+                "name": "City of Georgetown Land Cover",
+                "displayName": "City of Andrews Land Cover"
+            },
+            {
+                "name": "FEMA Flood Zones_GT",
+                "displayName": "FEMA Flood Zones",
+                "includeAllLayers": true
+            },
+             {
+                "name": "National Wetlands Inventory_GT",
+                "displayName": "National Wetlands Inventory"
+            },
+           
+            {
+                "name": "Social Vulnerability Index_GT",
+                "displayName": "Social Vulnerability Index"
+            },
+            {
+                "name": "Infrastructure_GT",
                 "displayName": "Infrastructure", 
                 "includeAllLayers": true
             }    

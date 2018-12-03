@@ -2,26 +2,26 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>2017 Predicted Yearly Flooding Risks</title>
+        <title>2017 Predicted Yearly Flooding Risk</title>
         <geoform>raster digital data</geoform>
       </citeinfo>
     </citation>
     <descript>
-      <abstract>For more information, see Metadata2017 predictions were generated from stream gages (USGS) and tide station (Springmaid Pier, NOAA). Each stream gage’s average yearly high water elevation was used as the mean yearly flooding surface and the standard deviation of the yearly high values used to assign the relative yearly flooding risk percentages. Only those gauges with more than 3 years of data were used. The process included a DEM derived stream network to help generate the surfaces – both mean and standard deviation – from the data points – which lie on streams. The tide station – 8661070 – still water surge values and statistics were used to reconstruct a normal curve for the station. From this information, mean and standard deviation were derived and used along with the VDATUM generated surface to generate the still water surge surfaces. The still water surge does not include wave affects (run-up) so it is a conservative estimate of flooding extents and does not include the many different approach angle and speed variants of storms. The FEMA flood zone along the coast is significantly larger as a result of modeling waves and the potential for storms beyond the present data set.These surfaces -stream flooding and still water surge were combined using the maximum value. They are used as the present condition – and represent an empirical data set. The mean surface was then subtracted from a 5 m DEM (derived from 2 m DEM) and then divided by the standard deviation to arrive at Z-scores which were converted to percent (%) values.</abstract>
+      <abstract>2017 predictions were generated from stream gages (USGS) and tide station (Springmaid Pier, NOAA). Each stream gage’s average yearly high water elevation was used as the mean yearly flooding surface and the standard deviation of the yearly high values used to assign the relative yearly flooding risk percentages. Only those gauges with more than 3 years of data were used. The process included a DEM derived stream network to help generate the surfaces – both mean and standard deviation – from the data points – which lie on streams. The tide station – 8661070 – still water surge values and statistics were used to reconstruct a normal curve for the station. From this information, mean and standard deviation were derived and used along with the VDATUM generated surface to generate the still water surge surfaces. The still water surge does not include wave affects (run-up) so it is a conservative estimate of flooding extents and does not include the many different approach angle and speed variants of storms. The FEMA flood zone along the coast is significantly larger as a result of modeling waves and the potential for storms beyond the present data set.These surfaces -stream flooding and still water surge were combined using the maximum value. They are used as the present condition – and represent an empirical data set. The mean surface was then subtracted from a 5 m DEM (derived from 2 m DEM) and then divided by the standard deviation to arrive at Z-scores which were converted to percent (%) values.</abstract>
       <purpose>Predicted yearly flood risks were developed from empirical data (measured) in Horry County at stream gages and the Springmaid Pier tide gage. The data provide a yearly chance (risk) of the location being flooded from river/ocean sources. Ponding areas, head-water, and poor drainage flooding sources are not included, but provided as a separate layer. </purpose>
     </descript>
     <spdom>
       <bounding>
-        <westbc>-79.346481</westbc>
-        <eastbc>-78.529329</eastbc>
-        <northbc>34.303641</northbc>
-        <southbc>33.560780</southbc>
+        <westbc>-79.684150</westbc>
+        <eastbc>-78.997838</eastbc>
+        <northbc>33.783920</northbc>
+        <southbc>33.111586</southbc>
       </bounding>
     </spdom>
     <accconst>None</accconst>
     <useconst>Not intended for insurance or FEMA rate maps.</useconst>
     <datacred>Stream Gage data - USGS; Digital Elevation Model - Horry County; Analysis - Keil Schmid, Geoscience Consultants.</datacred>
-    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.0.6491</native>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
   </idinfo>
   <spdoinfo>
     <direct>Raster</direct>
@@ -56,7 +56,7 @@
     </horizsys>
   </spref>
   <metainfo>
-    <metd>20180309</metd>
+    <metd>20181126</metd>
     <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
     <metstdv>FGDC-STD-001-1998</metstdv>
     <mettc>local time</mettc>

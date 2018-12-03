@@ -1,0 +1,155 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Structures in Georgetown Couny, SC</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>USGS Structures from The National Map consists of data to include the name, function, location, and other core information and characteristics of selected manmade facilities. The types of structures collected are largely determined by the needs of disaster planning and emergency response, and homeland security organizations. Structures currently being collected are: School, Technical/Trade School, College/University, Fire Station/EMS Station, Law Enforcement/Police Station, Prison/Correctional Facility, State Capitol, Hospital/Medical Center, Ambulance Service, Cemetery, Post Office, Campground, Trailhead, and Visitor/Information Center. Structures data are designed to be used in general mapping and in the analysis of structure related activities using geographic information system technology. The National Map structures data is commonly combined with other data themes, such as boundaries, elevation, hydrography, and transportation, to produce general reference base maps. The National Map download client allows free downloads of public domain structures data in either Esri File Geodatabase or Shapefile formats. For additional information on the structures data model, go to http://nationalmap.gov/structures.html.</abstract>
+      <purpose>USGS data portray selected structures data, including the location and characteristics of manmade facilities. Characteristics consist of a structure's physical form (footprint), function, name, location, and other detailed information about the structure. The types of structures collected are largely determined by the needs of the disaster planning and response and homeland security organizations.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-79.568169</westbc>
+        <eastbc>-79.026329</eastbc>
+        <northbc>33.676918</northbc>
+        <southbc>33.240051</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>26</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SC_NorthCoast_Georgetown_USGS_Structures</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Permanent_Identifier</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Source_FeatureID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Source_DatasetID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Source_DataDesc</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Source_Originator</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Data_Security</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Distribution_Policy</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LoadDate</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FType</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FCode</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>IsLandmark</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PointLocationType</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AdminType</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AddressBuildingName</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Address</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>City</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Zipcode</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GNIS_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Foot_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Complex_ID</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20181126</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

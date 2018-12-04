@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/South_Carolina",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/South_Carolina",
             "name": "South_Carolina"
         },
         "includeLayers": [
@@ -42,7 +42,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/South_Carolina",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/South_Carolina",
             "name": "South_Carolina"
         },
         "includeLayers": [

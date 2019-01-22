@@ -4,7 +4,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/South_Carolina",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/South_Carolina",
             "name": "South_Carolina"
         },
         "includeLayers": [
@@ -42,7 +42,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://dev.services.coastalresilience.org/arcgis/rest/services/South_Carolina",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/South_Carolina",
             "name": "South_Carolina"
         },
         "includeLayers": [
@@ -78,6 +78,32 @@
                 "displayName": "Infrastructure", 
                 "includeAllLayers": true
             }    
+        ]
+    },
+    {
+        "displayName": "Prelim CRS Data",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/South_Carolina",
+            "name": "CRS_Explorer"
+        },
+        "includeLayers": [
+            {
+                "name": "OSP Eligible Areas"
+            },
+            {
+                "name": "Impact Adjusted Exclusion Area",
+                "displayName": "Exclusion Area"
+            },
+            {
+                "name": "Impact Adjusted Floodplain / SFHA",
+                "displayName": "Impact Adjusted Floodplain"
+            },
+            {
+                "name": "Future OSP Parcels",
+                "displayName": "Potential Future OSP"
+            } 
         ]
     }
 ]

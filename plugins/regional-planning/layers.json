@@ -86,27 +86,30 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/South_Carolina",
-            "name": "CRS_Explorer"
+            "name": "CRS_Explorer_Temp"
         },
         "includeLayers": [
             {
-                "name": "Community Boundary"
-            },
-            {
                 "name": "OSP Eligible Areas"
             },
+			{
+                "name": "Future OSP Parcels",
+                "displayName": "Potential Future OSP"
+            },
             {
+                "name": "Beach Area"
+            },  
+			{
                 "name": "Impact Adjusted Exclusion Area",
                 "displayName": "Exclusion Area"
             },
-            {
+			{
                 "name": "Impact Adjusted Floodplain / SFHA",
                 "displayName": "Impact Adjusted Floodplain"
             },
             {
-                "name": "Future OSP Parcels",
-                "displayName": "Potential Future OSP"
-            } 
+                "name": "Community Boundary"
+            }            
         ]
     }
 ]

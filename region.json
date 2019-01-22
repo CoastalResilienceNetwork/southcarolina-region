@@ -57,6 +57,7 @@
 		"active": "#0096D6"
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+   "identifyEnabled": true,
     "launchpad": {
             "title": "South Carolina",
             "description": "<p>The Coastal Resilience decision-support tool provides Horry and Georgetown counties and municipalities within access to the best available science and local data on flooding hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities. For additional project information, visit the <a href= 'https://coastalresilience.org/project/southcarolina/' target='_blank'><b>South Carolina</b></a> project page or the <a href= 'https://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/southcarolina/index.htm' target='_blank'><b>South Carolina chapter website.</b></a></p>",

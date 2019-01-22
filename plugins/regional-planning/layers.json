@@ -90,7 +90,8 @@
         },
         "includeLayers": [
             {
-                "name": "OSP Eligible Areas"
+                "name": "Selected OSP Eligible Parcel",
+                "displayName": "OSP Eligible Parcels"
             },
 			{
                 "name": "Future OSP Parcels",

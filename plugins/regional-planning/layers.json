@@ -90,6 +90,9 @@
         },
         "includeLayers": [
             {
+                "name": "Community Boundary"
+            },
+            {
                 "name": "OSP Eligible Areas"
             },
             {

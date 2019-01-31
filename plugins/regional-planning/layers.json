@@ -52,11 +52,11 @@
                 "includeAllLayers": true
             },
             {
-                "name": "City of Andrews Land Cover",
+                "name": "City of Andrews Land Cover_GT",
                 "displayName": "City of Andrews Land Cover"
             },
             {
-                "name": "City of Georgetown Land Cover",
+                "name": "City of Georgetown Land Cover_GT",
                 "displayName": "City of Georgetown Land Cover"
             },
             {

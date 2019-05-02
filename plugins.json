@@ -1,6 +1,9 @@
 {
     "plugins": [
-
+        {
+    		"repo": "community-rating-system-sc",
+    		"name": "community-rating-system-sc"
+    	},
         {
             "repo": "regional-planning",
             "name": "regional-planning"
